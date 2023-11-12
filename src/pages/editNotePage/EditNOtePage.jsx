@@ -1,9 +1,10 @@
-import React from 'react'
+import EditNoteForm from "../../features/notes/EditNoteForm";
+import React from 'react';
 
-const EditNOtePage = () => {
+const EditNotePage = () => {
   return (
-    <div>EditNOtePage</div>
+    <EditNoteForm />
   )
 }
 
-export default EditNOtePage
+export default EditNotePage
